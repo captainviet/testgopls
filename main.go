@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/captainviet/testgopls/constants"
+)
 
 func main() {
-	fmt.Println(Unit(10))
+	fmt.Println(constants.Unit(10))
 }
